@@ -1,0 +1,124 @@
+
+header{
+    /* position: fixed;
+    width: 80%; */
+    padding: 1.5rem;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    /* box-shadow: 0 20px 15px #efefef49; */
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; padding: 0;
+}
+header ul li { list-style: none; display: block; padding: 0 1.2rem;}
+header ul li a{ text-decoration: none !important; padding-bottom: 3px; color: #000;}
+header ul li:hover a, ul li:hover .w-link{border-bottom: 3px solid #fff; }
+header ul li.active a, ul li.active .w-link{ border-bottom: 3px solid #ef4426; transition: .1s;}
+header ul li:hover .g-link{border-bottom: 3px solid #a8a6a6; }
+header ul li.active .g-link{border-bottom: 3px solid #000; transition: .1s; }
+.btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.6rem 0.8rem;
+    margin: 0 5px;
+    border-radius: 0.3rem;
+}
+.btn:hover{ filter: brightness(0.9); }
+.btn-primary{ background-color: #1e90ff !important; transition: .2s;}
+.entete{
+    background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)),
+    url(../img/00.jpg);
+    background-size: cover;
+}
+header .user>ul{
+    margin: 0;
+    padding: 0;
+}
+header .user ul li{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header .user ul li a{
+    display: block;
+    border-radius: 30px;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: 1px solid #dfdfdf;
+    color: #aaa;
+}
+header .user ul li i{ font-size: 20px; margin: 5px;}
+header .user ul li ul {
+    position: relative;
+    display: none;
+    width: 200px;
+    background: white;
+    margin-top: 15px;
+    padding-top: 15px;
+    z-index: 10;
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    animation: move .2s linear;
+    box-shadow: 0 10px 3px #5d5d5d1f;
+}
+header .user ul li:hover ul{
+    /* visibility: visible; */
+    display: block;
+}
+header .user ul ul li{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+header .user ul ul li a{
+    display: block;
+    border-radius: 0;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaa;
+    margin: 0;
+}
+header .user ul ul li:hover a{
+    color: #666;
+}
+
+.left ul{ margin: 0; padding: 0; overflow: hidden; border: 1px solid #dfdfdf; border-radius: 10px;}
+.left ul li{
+    list-style: none;
+    display: block !important;
+}
+.left ul li:hover{
+    background: lightgoldenrodyellow;
+}
+.left ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 15px 10px;
+}
+.left ul li.active{
+    background: lightgray;
+}
+.border{ border: 1px solid #dfdfdf;}
+@keyframes move {
+    from{
+        top: 10px;
+    }to{
+        top: 0;
+    }
+}
+
+

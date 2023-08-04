@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#root{ background: none;}
+.form{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: #fff;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 2rem ;
+}
+.form label{
+    font-size: 1.2rem;
+}
+.form input{
+    width: 100%;
+    padding: .7rem;
+    margin-top: 7px;
+    margin-bottom: 7px
+}
+.form button{
+    width: 100%;
+    height: 50px;
+    margin-top: .5rem;
+}
+.form a{
+    text-decoration: none;
+}
+.form p{
+    text-align: center;
+}

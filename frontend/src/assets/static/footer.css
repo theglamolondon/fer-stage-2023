@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    background: gainsboro;
+}
+.foot{
+    padding: 40px 30px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000d8;
+    color: #fff;
+}
+.foot div{
+    width: 24.5%;
+    padding: 1rem;
+}
+.foot input{
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: 5px;
+}
+.foot button{
+    width: 100%;
+    height: 40px;
+    background: none;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+}
+.foot button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.copyrigth{
+    background-color: #000000f1;
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+}
+.line p{
+    line-height: 2;
+}
